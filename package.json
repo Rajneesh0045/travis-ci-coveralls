@@ -1,0 +1,19 @@
+{
+  "name": "traviscoveralls",
+  "version": "1.0.0",
+  "description": "Demo for travis ci and coveralls",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage && coveralls < coverage/lcov.info"
+  },
+  "keywords": [
+    "travis-ci",
+    "coveralls"
+  ],
+  "author": "Kartik & Rajneesh",
+  "license": "ISC",
+  "devDependencies": {
+    "coveralls": "^3.0.11",
+    "jest": "^25.2.7"
+  }
+}
