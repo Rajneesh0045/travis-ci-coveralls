@@ -5,6 +5,10 @@ describe('Calculator Test Suite', () => {
    test('1 + 1 returns 2', () => {
         expect(addition(1,1)).toBe(2);
    });
+   
+   test('3 + 3 returns 6', () => {
+        expect(addition(3,3)).toBe(6);
+   });
 
    test('1 - 1 returns 0', () => {
     expect(substraction(1,1)).toBe(0);
