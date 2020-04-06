@@ -1,5 +1,5 @@
 # travis-ci-coveralls
-POC to try out travis-ci and coveralls
+POC to try out travis-ci and coveralls with simple node application
 
 [![Build Status](https://travis-ci.org/29kartik/travis-ci-coveralls.svg?branch=master)](https://travis-ci.org/29kartik/travis-ci-coveralls)
 
