@@ -13,6 +13,10 @@ describe('Calculator Test Suite', () => {
    test('1 - 1 returns 0', () => {
     expect(substraction(1,1)).toBe(0);
    });
+   
+   test('2 - 1 returns 1', () => {
+		expect(substraction(2, 1)).toBe(1);
+	});
 
    test('1 - 2 returns 1', () => {
     expect(substraction(1,2)).toBe(1);
