@@ -14,7 +14,7 @@
   ],
   "author": "Kartik & Rajneesh",
   "license": "ISC",
-  "Dependency": {
+  "dependency": {
     "express": "^4.17.1"
   },
   "devDependencies": {
