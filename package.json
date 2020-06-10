@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage && coveralls < coverage/lcov.info",
-    "docs": "jsdoc -c jsdoc.json"
+    "docs": "jsdoc -c jsdoc.json",
+    "start": "node server.js" 
   },
   "keywords": [
     "travis-ci",
@@ -15,7 +16,7 @@
   "license": "ISC",
   "Dependency": {
     "express": "^4.17.1"
-  }
+  },
   "devDependencies": {
     "coveralls": "^3.0.11",
     "jest": "^25.2.7",
