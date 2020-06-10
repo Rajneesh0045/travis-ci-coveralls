@@ -6,4 +6,4 @@ app.get('/', function (req, res) {
   res.send('Welcome to travis-ci-coverall demo')
 })
  
-app.listen(port, () => console.log(`travis-ci-coverall app listening at port: ${port});
+app.listen(port, () => console.log(`travis-ci-coverall app listening at port: ${port}`));
